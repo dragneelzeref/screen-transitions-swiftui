@@ -11,6 +11,8 @@
 		41ECA37B27EB80E100672EB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA37A27EB80E100672EB8 /* ContentView.swift */; };
 		41ECA37D27EB80E200672EB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA37C27EB80E200672EB8 /* Assets.xcassets */; };
 		41ECA38027EB80E200672EB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ECA37F27EB80E200672EB8 /* Preview Assets.xcassets */; };
+		41ECA38727EB80FE00672EB8 /* ScreenA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA38627EB80FE00672EB8 /* ScreenA.swift */; };
+		41ECA38927EB811000672EB8 /* ScreenB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ECA38827EB811000672EB8 /* ScreenB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		41ECA37A27EB80E100672EB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41ECA37C27EB80E200672EB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41ECA37F27EB80E200672EB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41ECA38627EB80FE00672EB8 /* ScreenA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenA.swift; sourceTree = "<group>"; };
+		41ECA38827EB811000672EB8 /* ScreenB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				41ECA37A27EB80E100672EB8 /* ContentView.swift */,
 				41ECA37C27EB80E200672EB8 /* Assets.xcassets */,
 				41ECA37E27EB80E200672EB8 /* Preview Content */,
+				41ECA38627EB80FE00672EB8 /* ScreenA.swift */,
+				41ECA38827EB811000672EB8 /* ScreenB.swift */,
 			);
 			path = ScreenTransition;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41ECA38727EB80FE00672EB8 /* ScreenA.swift in Sources */,
 				41ECA37B27EB80E100672EB8 /* ContentView.swift in Sources */,
+				41ECA38927EB811000672EB8 /* ScreenB.swift in Sources */,
 				41ECA37927EB80E100672EB8 /* ScreenTransitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
